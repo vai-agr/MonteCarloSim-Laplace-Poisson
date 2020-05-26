@@ -1,8 +1,8 @@
 import random
 #import numpy as np
-#import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 
-def randomWalk1D(number_of_walks, starting_point, length, boundary_condition, step_size=1):
+def randomWalk1D(number_of_walks, starting_point, boundary_condition, step_size):
 	path = []
 	probability = 0
 
