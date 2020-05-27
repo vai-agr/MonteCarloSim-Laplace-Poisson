@@ -16,7 +16,7 @@ def randomWalk1D(number_of_walks, starting_point, boundary_condition, step_size)
 				probability = probability+ (curr_point/boundary_condition[1])
 				#print(probability)
 				break 
-			if d>=0.5:
+			if d==1:
 				curr_point = min(curr_point+step_size, boundary_condition[1])
 			else:
 				curr_point = max(curr_point-step_size, boundary_condition[0])
