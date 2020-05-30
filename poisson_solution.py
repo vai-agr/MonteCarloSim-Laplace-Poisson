@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt  #for graphing functions
 number_of_walks = 200		 #Number of random walks for each point
 step_size = 1				 #Distance between each point = 1cm i.e. 10 divisions
 length = 20					 #Distance between the plates of the capacitor= 10cm	
-boundary_voltages = [-10,10]    #Voltages of the two plates of the capacitor in Volts
+boundary_voltages = [0,10]    #Voltages of the two plates of the capacitor in Volts
 epsilon_o = 8.85e-12		 #Permittivity of free space
 rho = 1e-13		 			 #Charge density in C/m^3	
 

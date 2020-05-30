@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt   #for graphing functions
 number_of_walks = 200		 #Number of random walks for each point
 step_size = 1				 #Distance between each point = 1cm ie 10 divisions
 length = 20					 #Distance between the plates of the capacitor = 10 cm	
-boundary_voltages = [-10,10]    #Voltages of the two plates of the capacitor in Volts
+boundary_voltages = [0,10]    #Voltages of the two plates of the capacitor in Volts
 
 if __name__ == "__main__":		#the main part
 
